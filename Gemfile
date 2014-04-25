@@ -56,6 +56,7 @@ group :development, :test do
   gem 'annotate', '>=2.6.0'
   gem 'rails-erd'
   gem 'jasmine'
+  gem 'selenium-webdriver'
 end
 
 gem 'httparty'
