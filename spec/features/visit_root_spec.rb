@@ -14,6 +14,6 @@ require 'spec_helper'
     it 'changes the message to Hey Gerald' do
       visit root_path
       page.find("h1", :text => 'Hey Macarena').click
-      expect( page ).to have_content 'Hey, Gerald'
+      expect( page ).to have_content 'ANERACAM YEH'
     end
   end
